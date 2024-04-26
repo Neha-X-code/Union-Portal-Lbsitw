@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.login-form {
+  position: absolute;
+  top: 200px;
+  left: 738px;
+  background-color: rgba(255, 247, 255, 0.8);
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 10px;
+  font-weight: bold; /* Make text bold */
+}
+
+.welcome-heading {
+  position: absolute;
+  top: 186px;
+  left: 170px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold; /* Make text bold */
+}
+
+.main-heading {
+  position: absolute;
+  top: 220px;
+  left: 170px;
+  color: #fff;
+  font-size: 45px;
+  font-weight: bold; /* Make text bold */
+}
+
+.main-heading1 {
+  position: absolute;
+  top: 270px;
+  left: 170px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold; /* Make text bold */
+}
+
+.sub-paragraph {
+  position: absolute;
+  top: 320px;
+  left: 170px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold; /* Make text bold */
+  width: 325px;
+}
+
+/* Adjustments for About Us section */
+.about-us-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-us-heading {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.about-us-content {
+  max-width: 600px; /* Adjust width if needed */
+  font-size: 16px;
+}
+
+/* Union Initiatives */
+.carousel-item img {
+  max-height: 300px;
+  object-fit: cover;
+}
